@@ -13,8 +13,9 @@ case $number in
      ;;
      6)   echo "FRIDAY"
      ;;
-     7)  echo "SATURDAY"
+     7)
+      echo "SATURDAY"
      ;;
      *)
-          echo " Enter the valid number"
+      echo "Enter valid number"
 esac

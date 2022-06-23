@@ -5,8 +5,8 @@ randomSingleDigitNumber=$((RANDOM%3))
 case $randomSingleDigitNumber  in
         $FirstNumber) echo "ZERO"
         ;;
-       $SecondNumber) echo "one"
+       $SecondNumber) echo "FIRST"
         ;;
-      *)  echo "two"
+      *)  echo "SECOND"
         ;;
 esac

@@ -16,5 +16,6 @@ case $number in
       echo  "TEN THOUSAND"
     ;;
     *)
-      echo "Enter the valid number"
+      echo "Enter valid number"
 esac
+
